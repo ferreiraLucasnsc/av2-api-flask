@@ -60,7 +60,7 @@ Use ferramentas como Postman, Insomnia ou Thunder Client para testar a API.
     "password": "senhaforte123"
 }
 ```
-    **Resultado**: Retorna o ```access_token``` JWT. Este token é obrigatório para todas as rotas de gerenciamento (```/registros```).
+  **Resultado**: Retorna o ```access_token``` JWT. Este token é obrigatório para todas as rotas de gerenciamento (```/registros```).
 
 ### 2. Gerenciamento da Biblioteca (Rotas Protegidas)
 Todas as rotas abaixo exigem o Header ```Authorization: Bearer <TOKEN>```.
